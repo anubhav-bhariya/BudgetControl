@@ -1,0 +1,43 @@
+*{ margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+header{
+	background-image: url("./image/budget2.jpg");
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#banner{
+	max-width: 80%;
+    max-height: 30%;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50% , -50%);
+	background-color: rgba(0,0,0,0.6);
+	padding-left: 6%;
+	padding-right: 6%;
+	color: white;
+}
+
+.content{
+	padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+ 
+footer{
+        color: white;
+        background-color: black;
+        padding-top: 5px;
+        padding-bottom:5px;
+        text-align: center;
+        width: 100%;
+}
